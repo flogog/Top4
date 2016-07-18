@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.diegog.top4.MainActivity"
+    >
+
+    <include
+        android:id="@+id/top4ActionBar"
+        layout="@layout/actionbar_top4"
+        >
+    </include>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/ivHersheyPark"
+            android:src="@drawable/hersheypark"
+            android:onClick="goToHershey"
+            android:layout_below="@+id/top4ActionBar"
+            android:layout_alignLeft="@+id/ivDutch"
+            android:layout_alignStart="@+id/ivDutch" />
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/ivDutch"
+        android:src="@drawable/dutchpng"
+        android:layout_below="@+id/ivHersheyPark"
+            android:onClick="goToWonderland"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/ivHwcasino"
+            android:src="@drawable/hwcasino"
+            android:layout_below="@+id/ivDutch"
+            android:onClick="goToCasino"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/ivChoco"
+            android:src="@drawable/choco"
+            android:layout_below="@id/ivHwcasino"
+            android:onClick="goToChocolateWorld"/>
+
+
+</RelativeLayout>

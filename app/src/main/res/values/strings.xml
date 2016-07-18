@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lugares mas Visitados</string>
+    <string name="title_activity_famous4">Map</string>
+    <string name="casino_name">Hollywood Casino</string>
+    <string name="param_name">name</string>
+    <string name="param_location">location</string>
+    <string name="param_desc">desc</string>
+    <string name="casino_desc">Thoroughbred racetrack\'s casino has horse bets, poker &amp; other table games, dining &amp; entertainment.</string>
+    <string name="dutch_name">Dutch Wonderland</string>
+    <string name="dutch_desc">Amusement Park has 44 acres of roller coasters, water slides, kids\' shows, a castle &amp; campgrounds.</string>
+    <string name="choco_name">Chocolate World</string>
+    <string name="choco_desc">Brand-name candy store stocking a huge selection of chocolate, sweets, collectibles &amp; gifts.</string>
+    <string name="hershey_name">Hershey Park</string>
+    <string name="hershey_desc">Hershey\'s chocolate-themed park for rides, kids\' activities, dining, live shows &amp; all-things cocoa.</string>
+</resources>
